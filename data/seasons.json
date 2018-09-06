@@ -51,16 +51,16 @@
     "type": "season",
     "id": "division.bro.official.2017-pre6",
     "attributes": {
-      "isOffseason": false,
-      "isCurrentSeason": false
+      "isCurrentSeason": false,
+      "isOffseason": false
     }
   },
   {
     "type": "season",
     "id": "division.bro.official.2017-pre7",
     "attributes": {
-      "isCurrentSeason": false,
-      "isOffseason": false
+      "isOffseason": false,
+      "isCurrentSeason": false
     }
   },
   {

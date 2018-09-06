@@ -25,6 +25,6 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-setInterval(util.compareSeasons, 10 * 1000);
+setInterval(util.compareSeasons, 60 * 1000 * 60 * 12);
 
 app.listen(port, () => console.log(`listening on port ${port}`));
