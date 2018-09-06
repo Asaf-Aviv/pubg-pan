@@ -1,0 +1,1 @@
+GET https://api.pubg.com/shards/pc-eu/players?filter=[playerNames]=yojimboz

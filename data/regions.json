@@ -1,0 +1,21 @@
+{
+  "pc": {
+    "AS"         : "pc-as",
+    "EU"         : "pc-eu",
+    "NA"         : "pc-na",
+    "KR"         : "pc-krjp",
+    "RUS"        : "pc-ru",
+    "OCE"        : "pc-oc",
+    "JP"         : "pc-jp",
+    "SEA"        : "pc-sea",
+    "SA"         : "pc-sa",
+    "KAKAO"      : "pc-kakao",
+    "tournament" : "pc-tournament"
+  },
+  "xbox": {
+    "AS"  : "xbox-as",
+    "EU"  : "xbox-eu",
+    "NA"  : "xbox-na",
+    "OCE" : "xbox-oc"
+  }
+}

@@ -2,11 +2,15 @@ require('dotenv').config();
 const express = require('express');
 const path    = require('path');
 const morgan  = require('morgan');
-const port    = process.env || 5000;
+const port    = process.env.PORT || 5000;
 const app     = express();
+const util    = require('./util/util');
+const pubgAPI = require('./api/pubg/pubgAPI');
 
 app.use(morgan('dev'));
 app.use(express.json());
+
+app.use('/pubg', pubgAPI);
 
 app.get('/', (req, res) => {
   res.send('yallow');
@@ -21,4 +25,6 @@ if (process.env.NODE_ENV === 'production') {
   });
 }
 
-app.listen(port, () => `listening on port ${port}`);
+setInterval(util.compareSeasons, 10 * 1000);
+
+app.listen(port, () => console.log(`listening on port ${port}`));
